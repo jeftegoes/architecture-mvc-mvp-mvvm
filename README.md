@@ -22,7 +22,7 @@
   - One to one relationship between View and Controller.
 - In MVC, the Model and View are usually decoupled, with the Controller acting as an intermediary.
   - The View observes the Model for changes and updates itself accordingly.
-    ![MVC diagram](Images/MvcDiagram.png)
+    ![MVC diagram](images/mvc-diagram.png)
 
 ## 1.2. MVP (Model-View-Presenter):
 
@@ -32,9 +32,8 @@
 - **Presenter:** Acts as an intermediary between the Model and the View.
   - It retrieves data from the Model and updates the View based on the user interactions.
 - Unlike MVC, the presenter in MVP takes on more responsibilities and handles the user input directly, making the View passive.
-- RECOMENDATION: Don't use more than 15 IU (Views).
-
-  ![MVP diagram](Images/MvpDiagram.png)
+- **RECOMENDATION:** Don't use more than 15 IU (Views).
+  ![MVP diagram](images/mvp-diagram.png)
 
 ## 1.3. MVVM (Model-View-ViewModel):
 
@@ -43,7 +42,7 @@
 - **ViewModel:** The intermediary between the Model and the View. It exposes data and commands that the View can bind to.
   - The ViewModel also notifies the View of any changes in the underlying data.
 - MVVM promotes two-way data binding between the View and the ViewModel, allowing automatic propagation of data changes.
-- ![MVVM diagram](Images/MvvmDiagram.png)
+  ![MVVM diagram](images/mvvm-diagram.png)
 
 # 2. Conclusion
 
@@ -53,7 +52,7 @@
 
 # 3. Pattern comparison
 
-![Pattern comparison](/Images/PatternComparison.png)
+![Pattern comparison](/images/pattern-comparison.png)
 
 # 4. References
 
